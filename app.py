@@ -16,7 +16,7 @@ st.markdown("""
 img[data-testid="stLogo"] {
             height: 10rem;
 }
-        /* Hide the Streamlit menu button (hamburger icon) */
+       
         .css-cio0dv {
             visibility: hidden;
         }
@@ -116,7 +116,7 @@ img[data-testid="stLogo"] {
 
 
 st.logo(
-    "https://cdn.discordapp.com/attachments/1295412617824833623/1298228904699625482/logo.png?ex=6718cd62&is=67177be2&hm=55d56530c287d5cde4b16783c9d272e7713443cb30227a7e5d3edd7c63b81826",
+    "https://i.ibb.co/86dHbxY/Apollo.png",
     size='large',
 )
 
