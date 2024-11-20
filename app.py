@@ -118,6 +118,9 @@ img[data-testid="stLogo"] {
         text-decoration: underline; /* Add underline on hover */
         color: #e8e500; /* Slightly darker color on hover */
         }
+        .footer-text a:visited {
+        color: #fffb00; /* Purple for visited links */
+        }
     </style>
 """, unsafe_allow_html=True)
 
