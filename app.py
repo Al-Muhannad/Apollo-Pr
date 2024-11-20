@@ -195,4 +195,14 @@ if st.button("Predict"):
             st.error("End date must be after start date.")
 
 # Add footer
-st.markdown('<div class="footer-text">Apollo Team by Le Wagon</div>', unsafe_allow_html=True)
+st.markdown(
+    '''
+    <div class="footer-text">
+        Developed by 
+        <a href="https://github.com/abbraar/renewable_energy_forecasting" target="_blank" style="text-decoration: none; color: #0366d6;">
+            Apollo Team 🌞
+        </a> in Le Wagon 🚗
+    </div>
+    ''', 
+    unsafe_allow_html=True
+)
