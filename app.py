@@ -110,6 +110,14 @@ img[data-testid="stLogo"] {
             justify-content: center;
             align-items: center;
         }
+        .footer-text a {
+        color: #fffb00; /* Link color */
+        text-decoration: none; /* Remove underline */
+        }
+        .footer-text a:hover {
+        text-decoration: underline; /* Add underline on hover */
+        color: #e8e500; /* Slightly darker color on hover */
+        }
     </style>
 """, unsafe_allow_html=True)
 
