@@ -78,17 +78,6 @@ img[data-testid="stLogo"] {
             visibility: hidden;
         }
 
-        .footer-text {
-            position: fixed;
-            left: 0;
-            bottom: 0;
-            width: 100%;
-            background-color: #3E84A8; /* Footer background color */
-            color: white; /* Footer text color */
-            text-align: center;
-            padding: 10px 0;
-        }
-
         /* Description styling */
         .DES {
             background: rgba(62, 132, 168, 0.22);
@@ -110,6 +99,19 @@ img[data-testid="stLogo"] {
             justify-content: center;
             align-items: center;
         }
+        .footer-text {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #3E84A8; /* Footer background color */
+        color: white; /* Footer text color */
+        text-align: center;
+        padding: 10px 0;
+        font-family: 'Arial', sans-serif;
+        }
+
+    /* Anchor styles in footer */
         .footer-text a {
         color: #fffb00; /* Link color */
         text-decoration: none; /* Remove underline */
@@ -119,7 +121,7 @@ img[data-testid="stLogo"] {
         color: #e8e500; /* Slightly darker color on hover */
         }
         .footer-text a:visited {
-        color: #fffb00; /* Purple for visited links */
+        color: #fffb00; /* Visited link color */
         }
     </style>
 """, unsafe_allow_html=True)
@@ -205,12 +207,11 @@ if st.button("Predict"):
         else:
             st.error("End date must be after start date.")
 
-# Add footer
 st.markdown(
     '''
     <div class="footer-text">
         Developed by 
-        <a href="https://github.com/abbraar/renewable_energy_forecasting" target="_blank" style="text-decoration: none; color: #0366d6;">
+        <a href="https://github.com/abbraar/renewable_energy_forecasting" target="_blank">
             Apollo Team 🌞
         </a> in Le Wagon 🚗
     </div>
